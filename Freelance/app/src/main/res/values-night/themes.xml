@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Freelance" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+    </style>
+    <color name="surface_light">#1C1B1F</color>
+    <color name="on_surface">#E6E1E5</color>
+    <color name="on_surface_variant">#CAC4D0</color>
+
+    <!-- Darker card colors -->
+    <color name="card_wallet">#2E7D32</color>
+    <color name="card_post_job">#1565C0</color>
+    <color name="card_bids">#7B1FA2</color>
+
+
+</resources>

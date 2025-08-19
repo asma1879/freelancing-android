@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F5F5F5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Wallet Balance Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_bids"
+                app:tint="@color/teal_700" />
+
+            <TextView
+                android:id="@+id/textViewBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balance: $0.00"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="12dp"
+                android:textColor="#333" />
+        </LinearLayout>
+
+        <!-- Withdraw Amount Input -->
+        <EditText
+            android:id="@+id/editTextWithdrawAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter amount to withdraw"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/teal_700"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:textColor="#000"/>
+        <!-- Payment Method Spinner -->
+        <Spinner
+            android:id="@+id/spinnerPaymentMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTint="@color/teal_700"
+            android:minHeight="48dp" />
+
+        <!-- Payment Code Input -->
+        <EditText
+            android:id="@+id/editTextPaymentCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter payment number/code"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:textColor="#000" />
+
+
+        <!-- Withdraw Button -->
+        <Button
+            android:id="@+id/buttonWithdraw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Withdraw"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Status Message -->
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#FF4444"
+            android:layout_marginTop="8dp" />
+
+        <!-- Title -->
+        <TextView
+            android:text="Withdrawal History"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- ListView for History -->
+        <ListView
+            android:id="@+id/withdrawReportList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:layout_marginBottom="32dp"
+            android:background="@android:color/white"
+            android:elevation="2dp"
+            android:padding="4dp"/>
+    </LinearLayout>
+</ScrollView>

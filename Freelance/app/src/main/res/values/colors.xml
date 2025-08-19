@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_bg_color">#2196F3</color> <!-- Blue example -->
+    <color name="primary_500">#6750A4</color>
+    <color name="primary_700">#4F378B</color>
+    <color name="primary_200">#EADDFF</color>
+
+    <!-- Secondary Palette -->
+    <color name="secondary_500">#625B71</color>
+    <color name="secondary_700">#4A4458</color>
+    <color name="secondary_200">#E8DEF8</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Surface Colors -->
+    <color name="surface_light">#FFFBFE</color>
+    <color name="surface_dark">#1C1B1F</color>
+    <color name="surface_container">#E6E0E9</color>
+
+    <!-- Text Colors -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="on_surface_variant">#49454F</color>
+
+    <!-- Card Backgrounds -->
+    <color name="card_wallet">#4CAF50</color>
+    <color name="card_post_job">#2196F3</color>
+    <color name="card_my_jobs">#FF9800</color>
+    <color name="card_bids">#9C27B0</color>
+    <color name="card_deliveries">#607D8B</color>
+    <color name="card_funds">#009688</color>
+    <color name="card_reports">#795548</color>
+    <color name="card_profile">#673AB7</color>
+
+    <!-- State Colors -->
+    <color name="state_pressed">#21005D</color>
+    <color name="state_hover">#F3EDF7</color>
+    <color name="state_focus">#6750A4</color>
+
+    <!-- Icon Tints -->
+    <color name="icon_active">#6750A4</color>
+    <color name="icon_inactive">#625B71</color>
+    <color name="icon_on_colored">#FFFFFF</color>
+    <color name="bottom_nav_item_icon">#FF000000</color>
+    <color name="bottom_nav_item_text">#FF000000</color>
+    <color name="bottom_nav_item_selected">#6750A4</color>
+
+    <color name="ripple_color_light">#1F6750A4</color>
+    <color name="icon_tint_selector">#FF000000</color>
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_background">@color/primary_500</color> <!-- #6750A4 -->
+
+    <color name="bottom_nav_text_selected">@color/white</color>
+    <color name="bottom_nav_text_unselected">#B3FFFFFF</color>
+    <!-- Add to colors.xml -->
+    <color name="bottom_nav_icon_selected">#40C4FF</color>
+    <color name="bottom_nav_icon_unselected">#8040C4FF</color> <!-- 50% opacity -->
+    <color name="teal_700">#00796B</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_primary">#222222</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="card_wishlist_pink">#FFC0CB</color>
+
+
+
+
+    <!-- In your BottomNavigationView -->
+
+
+</resources>

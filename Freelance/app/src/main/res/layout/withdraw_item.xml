@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/withdrawAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: $100.00"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/withdrawDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: 2025-07-20 14:33:00"
+        android:textColor="#555"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/withdrawMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Method: bKash"
+        android:textColor="#555"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/withdrawCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code: 01XXXXXXXXX"
+        android:textColor="#555"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp" />
+</LinearLayout>

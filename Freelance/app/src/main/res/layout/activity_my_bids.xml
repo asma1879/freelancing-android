@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@+id/listBids"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#fff"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="18dp"/>

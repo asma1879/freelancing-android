@@ -1,0 +1,81 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="6dp"
+    android:padding="16dp"
+    android:radius="12dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvJobTitle"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#2E2E2E"
+            android:text="Job Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvJobBudget"
+            android:text="Budget: $0"
+            android:textSize="16sp"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvJobDeadline"
+            android:text="Deadline: N/A"
+            android:textSize="16sp"
+            android:textColor="#FF5722"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvJobSkills"
+            android:text="Skills: -"
+            android:textSize="16sp"
+            android:textColor="#3F51B5"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_weight="1"
+                android:text="Save"
+                android:backgroundTint="#607D8B"
+                android:textColor="#FFFFFF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnApply"
+                android:layout_weight="1"
+                android:text="Apply"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFFFFF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

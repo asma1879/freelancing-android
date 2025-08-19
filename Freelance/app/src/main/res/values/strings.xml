@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Freelance</string>
+
+    <string-array name="roles_array">
+        <item>Client</item>
+        <item>Freelancer</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="payment_methods">
+        <item>Bank Transfer</item>
+        <item>PayPal</item>
+        <item>Bkash</item>
+        <item>Nagad</item>
+        <item>Rocket</item>
+    </string-array>
+    <string name="select_job">Select a Job</string>
+
+
+</resources>

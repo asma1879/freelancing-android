@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:text="Welcome"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- First Action -->
+        <Button
+            android:id="@+id/btnAction1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Action 1"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Second Action -->
+        <Button
+            android:id="@+id/btnAction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Action 2"
+            android:backgroundTint="#009688"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Third Action (Optional) -->
+        <Button
+            android:id="@+id/btnAction3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Action 3"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Fourth Action (Optional) -->
+        <Button
+            android:id="@+id/btnAction4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Action 4"
+            android:backgroundTint="#607D8B"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Profile Button -->
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:backgroundTint="#795548"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAddMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Funds"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginTop="24dp" />
+
+
+    </LinearLayout>
+</ScrollView>
