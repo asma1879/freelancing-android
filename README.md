@@ -136,9 +136,16 @@ Tables and columns:
 ### 4. Usage
 - Register a new user (client/freelancer/admin).  
 - Clients can post jobs.  
-- Freelancers can browse jobs, place bids, and manage their wishlist.  
+- Freelancers can browse jobs, place bids, and manage their wishlist.
 - Clients can approve bids, view job deliveries, and process payments.  
-- Freelancers can withdraw funds with payment method and code.  
+- Freelancers can withdraw funds with payment method and code.
+
+ ### Screenshots
+
+
+ <img width="317" height="651" alt="Client_Dashboard" src="https://github.com/user-attachments/assets/4225249d-bd32-4ebb-8212-838af036704e" />
+
 - Users can leave reviews and rate completed jobs.  
 
 
+ 
