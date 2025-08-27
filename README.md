@@ -24,7 +24,7 @@ A full-featured mobile freelancing management platform built with **Android** fo
 - Build Tools: Gradle
 
 ## PROJECT STRUCTURE
-
+```
 Freelance/
 ├── .gradle/                  # Gradle system files
 ├── .idea/                    # IDE configuration files (Android Studio)
@@ -48,7 +48,7 @@ Freelance/
 ├── settings.gradle.kts                 # Project settings
 ├── .gitignore                          # Git ignore rules
 └── README.md                           # Project documentation
-
+```
 ## DATABASE STRUCTURE (SQLite)
 
 Tables and columns:
