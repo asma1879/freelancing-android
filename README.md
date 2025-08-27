@@ -33,8 +33,8 @@ Freelance/
 │   │   ├── main/
 │   │   │   ├── java/com/example/freelance/
 │   │   │   │   ├── activities/      # Activity classes
-│   │   │   │   ├── adapters/        # RecyclerView / List adapters
-│   │   │   │   ├── database/        # SQLite helper classes (FreelanceDbHelper)
+│   │   │   │   ├── utils/        # RecyclerView / List adapters
+│   │   │   │   ├── dao/        # SQLite helper classes (FreelanceDbHelper)
 │   │   │   │   └── models/          # Data model classes
 │   │   │   ├── res/                  # Layouts, drawables, values
 │   │   │   └── AndroidManifest.xml   # App manifest
