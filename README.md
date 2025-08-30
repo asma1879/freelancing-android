@@ -1,4 +1,4 @@
-# Freelancing Management System (Android + SQLite)
+# Freelancing Management System (Android)
 
 A full-featured mobile freelancing management platform built with **Android** for the frontend and **SQLite** for local data storage.
 
